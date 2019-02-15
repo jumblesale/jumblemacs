@@ -19,7 +19,9 @@ bash install.sh
 jumblemacs
 ```
 
-it will open a port in `xhost` so xquartz can communicate and mount your
-current working directory. from there, use the [spacemacs haskell layer](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/haskell) like
+it will add your ip `xhost` so `xquartz` can communicate and then it will 
+ mount your current working directory.
+
+from there, use the [spacemacs haskell layer](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/haskell) like
 normal.
 
