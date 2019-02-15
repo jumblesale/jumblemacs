@@ -3,7 +3,6 @@
 ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
 xhost +$ip
 docker run -ti --rm \
-  --name spacemacs \
   -e DISPLAY=$ip:0 \
   -e TZ=CET \
   -v $(pwd):/mnt/workspace \
